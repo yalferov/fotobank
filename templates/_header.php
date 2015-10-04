@@ -47,7 +47,7 @@
             <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-camera"></span> Фотобанк</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-left">
                 <li><a href="/upload">Загрузить</a></li>
                 <li><a href="/help">Помощь</a></li>
             </ul>

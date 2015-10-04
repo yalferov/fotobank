@@ -7,5 +7,5 @@
  */
 ?>
 <? require($_SERVER["DOCUMENT_ROOT"]."/templates/_header.php"); ?>
-<? echo "<h1>Верстов.Инфо</h1>"; ?>
+<? echo "<h1>Последние фото</h1>"; ?>
 <? require($_SERVER["DOCUMENT_ROOT"]."/templates/_footer.php"); ?>
