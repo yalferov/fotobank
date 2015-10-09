@@ -20,7 +20,7 @@
         <div class="col-xs-9">
             <div class="form-group">
                 <label>Название</label>
-                <input type="text" class="form-control" name="FILES[name][]" value="" />
+                <input type="text" class="form-control" name="FILES[name][]" value="" required/>
             </div>
             <div class="form-group">
                 <label>Теги через запятую</label>

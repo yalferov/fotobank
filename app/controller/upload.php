@@ -11,8 +11,9 @@ if ($app->request->post('step') == 2) {
     $arFiles = reArrayFiles($_POST['FILES']);
     foreach($arFiles as $item){
         $images = ORM::for_table('images')->create();
-        $images->filename = $item['filename'];
-        $images->name = $item['name'];
+        $images->filename   = $item['filename'];
+        $images->name       = $item['name'];
+        $images->datetime   = date("Y-m-d H:i:s");
         $tags=explode(",", $item['tags']);
         foreach($tags as &$item){
             $item=trim($item);
